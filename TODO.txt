@@ -1,0 +1,12 @@
+- Writing the text
+- Adding french translation /fr
+- Doing CSS (https://evanyou.me/ as inspiration)
+    - Black backgound (#000000)
+    - Pastel font (found a color)
+        - Maybe add css to have a random color each time (between a selection) 
+- Find a font (https://fonts.google.com/)
+
+- *MAYBE* add a picture in the right
+
+
+Note: do everything in one file
