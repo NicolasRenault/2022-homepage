@@ -3,9 +3,10 @@
 - Doing CSS (https://evanyou.me/ as inspiration)
     ✔️ Black backgound (#000000)
     ✔️ Pastel font (found a color)
-        ✔️ Maybe add css to have a random color each time (between a selection) (#FAD2E1, #fec89a, #85dda1, #80a5ff, #ba8edb, #ed6a5a)
+        ✔️ Maybe add css to have a random color each time (between a selection)
     ✔️ Adding link style
-        ⚠️Change the font color 
+        ✔️Change the font color 
+    - Autoprefix CSS
 ✔️ Find a font (https://fonts.google.com/)
 - Add a CV link
 ✔️ IMPORTANT, Add evanyou.me s/o 

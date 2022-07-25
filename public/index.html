@@ -54,13 +54,11 @@
             }
 
             body.random-color-1 a::after {
-                /* TODO change the color */
-                background-color: rgba(250, 210, 225, 0.75);
+                background-color: rgba(255, 178, 98, 0.75);
             }
 
-            body.random-color-2 a::after { 
-                /* TODO change the color */
-                background-color: rgba(254, 200, 154, 0.75);
+            body.random-color-2 a::after {
+                background-color: rgba(101, 109, 74, 0.75);
             }
 
             body.random-color-3 a::after {
@@ -78,6 +76,14 @@
             body.random-color-6 a::after {
                 background-color: rgba(237, 106, 90, 0.75);
             }
+
+            body.random-color-7 a::after {
+                background-color: rgba(219, 0, 182, 0.75);
+            }
+
+            body.random-color-8 a::after {
+                background-color: rgba(255, 112, 150, 0.75);
+            }
         </style>
     </head>
     <body>
@@ -88,7 +94,8 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque explicabo nam, tempore facilis vero corrupti exercitationem numquam aliquid dolores libero, autem illum odio, nulla dignissimos. Voluptate cumque fugit vero.</p>
     </body>
     <script defer>
-        document.body.classList.add("random-color-" + Math.floor(Math.random() * (6 - 1 + 1) + 1));
+        //Select a random color at launch
+        document.body.classList.add("random-color-" + Math.floor(Math.random() * (8 - 1 + 1) + 1));
     </script>
 </html>
 
