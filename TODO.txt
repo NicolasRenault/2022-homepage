@@ -6,11 +6,12 @@
         ✔️ Maybe add css to have a random color each time (between a selection) (#FAD2E1, #fec89a, #85dda1, #80a5ff, #ba8edb, #ed6a5a)
     ✔️ Adding link style
         ⚠️Change the font color 
-- Find a font (https://fonts.google.com/)
+✔️ Find a font (https://fonts.google.com/)
 - Add a CV link
-- IMPORTANT, Add evanyou.me s/o 
+✔️ IMPORTANT, Add evanyou.me s/o 
 
 - *MAYBE* add a picture in the right
+- *MAYBE* add a dark/light mode
 
 
 Note: do everything in one file
