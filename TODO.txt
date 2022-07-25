@@ -1,12 +1,12 @@
 - Writing the text
 - Adding french translation /fr
-- Doing CSS (https://evanyou.me/ as inspiration)
+✔️ Doing CSS (https://evanyou.me/ as inspiration)
     ✔️ Black backgound (#000000)
     ✔️ Pastel font (found a color)
         ✔️ Maybe add css to have a random color each time (between a selection)
     ✔️ Adding link style
         ✔️Change the font color 
-    - Autoprefix CSS
+    ✔️ Autoprefix CSS
 ✔️ Find a font (https://fonts.google.com/)
 - Add a CV link
 ✔️ IMPORTANT, Add evanyou.me s/o 

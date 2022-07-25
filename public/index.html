@@ -6,6 +6,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
         <style>
+            /*
+            * Prefixed by https://autoprefixer.github.io
+            * PostCSS: v8.4.14,
+            * Autoprefixer: v10.4.7
+            * Browsers: last 4 version
+            */
             body {
                 font-family: 'Poppins', sans-serif;
                 padding: 5vh 10vw;
@@ -43,6 +49,8 @@
                 width: calc(100% - 8px);
                 height: calc(70% - 8px);
                 z-index: -1;
+                -webkit-transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+                -o-transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
                 transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
             }
 
