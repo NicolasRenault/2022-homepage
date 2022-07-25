@@ -10,7 +10,7 @@
                 font-family: 'Poppins', sans-serif;
                 padding: 5vh 10vw;
                 background-color: #000000;
-                color: wheat;
+                color: #FFFFFF;
             }
             h1 {
                 font-size: 4.5em;
@@ -23,6 +23,25 @@
                 line-height: 1.4;
                 max-width: 28em;
             }
+
+            body.random-color-1{
+                color: #FAD2E1;
+            }
+            body.random-color-2{
+                color: #fec89a;
+            }
+            body.random-color-3{
+                color: #85dda1;
+            }
+            body.random-color-4{
+                color: #80a5ff;
+            }
+            body.random-color-5{
+                color: #ba8edb;
+            }
+            body.random-color-6{
+                color: #ed6a5a;
+            }        
         </style>
     </head>
     <body>
@@ -32,4 +51,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque explicabo nam, tempore facilis vero corrupti exercitationem numquam aliquid dolores libero, autem illum odio, nulla dignissimos. Voluptate cumque fugit vero.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque explicabo nam, tempore facilis vero corrupti exercitationem numquam aliquid dolores libero, autem illum odio, nulla dignissimos. Voluptate cumque fugit vero.</p>
     </body>
+    <script defer>
+        document.body.classList.add("random-color-" + Math.floor(Math.random() * (6 - 1 + 1) + 1));
+    </script>
 </html>
