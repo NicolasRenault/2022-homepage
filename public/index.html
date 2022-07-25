@@ -24,31 +24,67 @@
                 max-width: 28em;
             }
 
-            body.random-color-1{
-                color: #FAD2E1;
+            a {
+                position: relative;
+                overflow: hidden;
+                text-decoration: none;
+                
             }
-            body.random-color-2{
-                color: #fec89a;
+
+            a:active, a:hover {
+                outline-width: 0;
             }
-            body.random-color-3{
-                color: #85dda1;
+
+            a::after {
+                content: "";
+                position: absolute;
+                left: 10px;
+                bottom: -6px;
+                width: calc(100% - 8px);
+                height: calc(70% - 8px);
+                z-index: -1;
+                transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
             }
-            body.random-color-4{
-                color: #80a5ff;
+
+            a:hover:after {
+                left: 0;
+                bottom: -2px;
+                width: 100%;
+                height: 100%;
             }
-            body.random-color-5{
-                color: #ba8edb;
+
+            body.random-color-1 a::after {
+                /* TODO change the color */
+                background-color: rgba(250, 210, 225, 0.75);
             }
-            body.random-color-6{
-                color: #ed6a5a;
-            }        
+
+            body.random-color-2 a::after { 
+                /* TODO change the color */
+                background-color: rgba(254, 200, 154, 0.75);
+            }
+
+            body.random-color-3 a::after {
+                background-color: rgba(133, 221, 161, 0.75);
+            }
+
+            body.random-color-4 a::after {
+                background-color: rgba(128, 165, 255, 0.75);
+            }
+
+            body.random-color-5 a::after {
+                background-color: rgba(186, 142, 219, 0.75);
+            }
+        
+            body.random-color-6 a::after {
+                background-color: rgba(237, 106, 90, 0.75);
+            }
         </style>
     </head>
     <body>
         <h1>Hello.</h1>
         <p style="font-weight: 500; font-size: 2.2em">My name is Nicolas Renault.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque explicabo nam, tempore facilis vero corrupti exercitationem numquam aliquid dolores libero, autem illum odio, nulla dignissimos. Voluptate cumque fugit vero.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque explicabo nam, tempore facilis vero corrupti exercitationem numquam aliquid dolores libero, autem illum odio, nulla dignissimos. Voluptate cumque fugit vero.</p>
+        <p><a>Lorem ipsum dolor</a> sit amet consectetur adipisicing elit. Fugit eaque explicabo nam, tempore facilis vero corrupti exercitationem numquam aliquid dolores libero, autem illum odio, nulla dignissimos. Voluptate cumque fugit vero.</p>
+        <p>Lorem ipsum dolor sit amet <a>consectetur</a> adipisicing elit. Fugit eaque explicabo nam, tempore facilis vero corrupti exercitationem numquam aliquid dolores libero, autem illum odio, nulla dignissimos. Voluptate cumque fugit vero.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque explicabo nam, tempore facilis vero corrupti exercitationem numquam aliquid dolores libero, autem illum odio, nulla dignissimos. Voluptate cumque fugit vero.</p>
     </body>
     <script defer>
