@@ -1,5 +1,5 @@
 - Writing the text
-- Adding french translation /fr
+- Adding french translation (/fr ou <section id="fr">)
 ✔️ Doing CSS (https://evanyou.me/ as inspiration)
     ✔️ Black backgound (#000000)
     ✔️ Pastel font (found a color)

@@ -1,0 +1,26 @@
+Hello.
+My name is Nicolas Renault.
+
+I am a Junior IT Developer currently working at Trelleborg based in France.
+Graduated from a Three-year Degree of web and mobile device software technology, 
+I'm mostly working with backend technologies in my current job, by developing custom program for an ERP 
+or managing interfaces between applications with Talend as a software administrator and more.
+
+Beside my job, I am learning web technologies like Vue.js and Nuxt.js because I am aiming to become a backend web developer.
+
+You can find all my work and my resume on GitHub or contact me by mail. 
+
+-------
+
+Bonjour.
+
+Je m'appelle Nicolas Renault.
+
+Je suis un Développeur informatique Junior travaillant actuellement chez Trelleborg et basé en France.
+Diplômé d'un DUT informatique et d'une Licence professionnelle des technologies logiciel du web et terminaux mobiles, 
+je travaille principalement avec des technologies backend dans mon travail actuel 
+où je développe des programmes pour un ERP, gère des interfaces entre application avec Talend en tant qu’administrateur logiciel.
+
+A coté de mon travail, je suis entrain d’apprendre des technologies du web comme Vue.js et Nuxt.js car je souhaite devenir un développeur web backend.
+
+Vous pouvez trouver mon travail et mon CV sur mon GitHub ou me contacter par mail.
