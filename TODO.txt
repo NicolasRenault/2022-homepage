@@ -11,6 +11,8 @@
 - Add a CV link
 ✔️ IMPORTANT, Add evanyou.me s/o 
 
-⚠️ Fix a link in responsive.
+✔️ Fix a link in responsive.
+⚠️ Fix colors.
+- Add link to schools
 
 Note: do everything in one file
