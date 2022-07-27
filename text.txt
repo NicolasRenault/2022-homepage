@@ -2,12 +2,12 @@ Hello.
 My name is Nicolas Renault.
 
 I am a Junior IT Developer based in France.
-Graduated from a Three-year Degree of web and mobile device software technology, 
-I'm currently working at Trelleborg as a developer and software administrator
-I'm mostly working with backend technologies in my current job, by developing custom program for an ERP 
-or managing interfaces between applications with Talend as a software administrator and more.
+Graduated from a Three-year, with the last year in block release training, Degree of web and mobile device software technology, 
+I am currently working at Trelleborg as a developer and software administrator.
+My main missions are developing custom program for an ERP, designing interfaces between applications and 
+managing software such as Talend and Git.
 
-I am also learning web technologies like Vue.js and Nuxt.js because I am aiming to become a backend web developer.
+During my free time, I am learning web technologies like Vue.js and Nuxt.js because I am aiming to become a backend web developer.
 
 You can find all my personal work on GitHub, my resume here or contact me by mail. 
 
@@ -17,13 +17,13 @@ Bonjour.
 
 Je m'appelle Nicolas Renault.
 
-Je suis un Développeur informatique junior basé en France.
-Diplômé d'un DUT informatique et d'une Licence professionnelle des technologies logiciel du web et terminaux mobiles, 
-je travaille actuellement chez Trelleborg en tant développeur et administrateur logiciel.
-J'y effectue des missions tel que développer des programmes pour un ERP,
-gérer des interfaces entre application avec Talend en tant qu'administrateur.
+Je suis un développeur informatique junior basé en France.
+Diplômé d'un DUT informatique et d'une licence professionnelle des technologies logiciel du web et terminaux mobiles en alternance, 
+je travaille actuellement chez Trelleborg en tant que développeur et administrateur logiciel.
+Mes principales missions sont le développement de programme sur mesure pour un ERP, la conception d'interfaces entre applications et
+la gestion de logiciels tels que Talend et Git.
 
-Je suis aussi en train d’apprendre des technologies du web comme Vue.js et Nuxt.js car je souhaite devenir un développeur web backend.
+Durant mon temps libre, j'apprends des technologies du web comme Vue.js et Nuxt.js car je souhaite devenir un développeur web backend.
 
 Vous pouvez trouver mon travail personnel sur GitHub, mon CV ici ou me contacter par mail.
 
