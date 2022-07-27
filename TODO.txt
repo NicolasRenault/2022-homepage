@@ -13,6 +13,6 @@
 
 ✔️ Fix a link in responsive.
 ⚠️ Fix colors.
-- Add link to schools
+✔️ Add link to schools
 
 Note: do everything in one file
