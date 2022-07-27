@@ -8,11 +8,12 @@
         ✔️Change the font color 
     ✔️ Autoprefix CSS
 ✔️ Find a font (https://fonts.google.com/)
-- Add a CV link
+✔️ Add a CV link
 ✔️ IMPORTANT, Add evanyou.me s/o 
 
 ✔️ Fix a link in responsive.
 ⚠️ Fix colors.
+⚠️ Translate icon in responsive.
 ✔️ Add link to schools
 
 Note: do everything in one file
