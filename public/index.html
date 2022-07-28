@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head> 
+    <head>
         <title>Nicolas Renault</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
@@ -109,12 +110,22 @@
             }
 
             .material-symbols-outlined {
-                font-size: 40px; /*TODO Responsive*/
+                font-size: 40px;
                 font-variation-settings:
                 'FILL' 0,
                 'wght' 100,
                 'GRAD' -25,
                 'opsz' 48
+            }
+
+            @media screen and (max-width: 480px) {
+                #language {
+                    margin-top: 30px;
+                }
+
+                .material-symbols-outlined {
+                    font-size: 50px;
+                }
             }
         </style>
     </head>
