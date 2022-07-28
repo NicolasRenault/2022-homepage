@@ -89,10 +89,6 @@
             }
 
             body.random-color-7 a::after {
-                background-color: rgba(219, 0, 182, 0.75);
-            }
-
-            body.random-color-8 a::after {
                 background-color: rgba(255, 112, 150, 0.75);
             }
 
@@ -180,7 +176,7 @@
     </body>
     <script defer>
         //Select a random color at launch
-        document.body.classList.add("random-color-" + Math.floor(Math.random() * (8 - 1 + 1) + 1));
+        document.body.classList.add("random-color-" + Math.floor(Math.random() * (7 - 1 + 1) + 1));
         
         //Switch language
         let language = "english";
