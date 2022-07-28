@@ -12,8 +12,8 @@
 ✔️ IMPORTANT, Add evanyou.me s/o 
 
 ✔️ Fix a link in responsive.
-⚠️ Fix colors.
-⚠️ Translate icon in responsive.
+✔️ Fix colors.
+✔️ Translate icon in responsive.
 ✔️ Add link to schools
 
 Note: do everything in one file
