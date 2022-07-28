@@ -1,9 +1,197 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head> 
         <title>Nicolas Renault</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+        <style>
+            /*
+            * Prefixed by https://autoprefixer.github.io
+            * PostCSS: v8.4.14,
+            * Autoprefixer: v10.4.7
+            * Browsers: last 4 version
+            */
+            body {
+                font-family: 'Poppins', sans-serif;
+                background-color: #000000;
+                color: #FFFFFF;
+                padding: 2vh 10vw;
+            }
+
+            h1 {
+                font-size: 4.5em;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+            p {
+                font-size: 1.6em;
+                font-weight: 300;
+                line-height: 1.4;
+                max-width: 28em;
+            }
+
+            a {
+                position: relative;
+                overflow: hidden;
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+
+            a:active, a:hover {
+                outline-width: 0;
+            }
+
+            a::after {
+                content: "";
+                position: absolute;
+                left: 10px;
+                bottom: -6px;
+                width: calc(100% - 8px);
+                height: calc(70% - 8px);
+                z-index: -1;
+                -webkit-transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+                -o-transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+                transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+            }
+
+            a:hover:after {
+                left: 0;
+                bottom: -2px;
+                width: 100%;
+                height: 100%;
+            }
+
+            body.random-color-1 a::after {
+                background-color: rgba(255, 178, 98, 0.75);
+            }
+
+            body.random-color-2 a::after {
+                background-color: rgba(101, 109, 74, 0.75);
+            }
+
+            body.random-color-3 a::after {
+                background-color: rgba(133, 221, 161, 0.75);
+            }
+
+            body.random-color-4 a::after {
+                background-color: rgba(128, 165, 255, 0.75);
+            }
+
+            body.random-color-5 a::after {
+                background-color: rgba(186, 142, 219, 0.75);
+            }
+        
+            body.random-color-6 a::after {
+                background-color: rgba(237, 106, 90, 0.75);
+            }
+
+            body.random-color-7 a::after {
+                background-color: rgba(255, 112, 150, 0.75);
+            }
+
+            button, input[type="submit"], input[type="reset"] {
+                background: none;
+                color: inherit;
+                border: none;
+                padding: 0;
+                font: inherit;
+                cursor: pointer;
+            }
+
+            #language {
+                position: absolute;
+                right: 0;
+                top: 0;
+                margin: 20px 30px;
+            }
+
+            .material-symbols-outlined {
+                font-size: 40px; /*TODO Responsive*/
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 100,
+                'GRAD' -25,
+                'opsz' 48
+            }
+        </style>
     </head>
     <body>
-        <h1>nicolasrenault.com</h1>
+        <button id="language" title="Translation">
+            <span class="material-symbols-outlined">
+                Translate
+            </span>
+        </button>
+        
+        <section id="english">
+            <h1>Hello.</h1>
+            <p style="font-weight: 500; font-size: 2.2em">My name is Nicolas Renault.</p>
+            <p>
+                I am a Junior IT Developer based in France.
+                Graduated from a Three-year, with the last year in block release training, 
+                <a href="https://formations.univ-poitiers.fr/fr/index/licence-professionnelle-DP/licence-professionnelle-DP/licence-professionnelle-metiers-de-l-informatique-conception-developpement-et-test-de-logiciels-JACHNIWS//parcours-technologies-logicielles-pour-le-web-et-les-terminaux-mobiles-JACHPCKI.html?search-keywords=web,mobile" target="_blank">Degree</a> 
+                of web and mobile device software technology, 
+                I am currently working at 
+                <a href="https://www.trelleborg.com/" target="_blank">Trelleborg</a> as a developer and software administrator.
+                My main missions are developing custom program for an ERP, designing interfaces between applications and 
+                managing software such as Talend and Git.
+            </p>
+            <p>
+                During my free time, I am learning web technologies like  
+                <a href="https://vuejs.org" target="_blank">Vue.js</a> and <a href="https://nuxtjs.org" target="_blank">Nuxt.js</a> 
+                because I am aiming to become a backend web developer.
+            </p>
+            <p>
+                You can find all my personal work on <a href="https://github.com/NicolasRenault" target="_blank">GitHub</a>, 
+                my <a href="https://resume.nicolasrenault.com/FR%20Resume%20Nicolas%20Renault.pdf" target="_blank">resume</a> 
+                or contact me by <a href="mailto:contact.nicolasrenault@gmail.com">mail</a>. 
+            </p>
+        </section>
+        <section id="french" hidden>
+            <h1>Bonjour.</h1>
+            <p style="font-weight: 500; font-size: 2.2em">Je m'appelle Nicolas Renault.</p>
+            <p>
+                Je suis un développeur informatique junior basé en France.
+                Diplômé d'un <a href="https://www.uca.fr/formation/nos-formations/catalogue-des-formations/but-informatique-clermont" target="_blank">DUT</a> 
+                informatique et d'une <a href="https://formations.univ-poitiers.fr/fr/index/licence-professionnelle-DP/licence-professionnelle-DP/licence-professionnelle-metiers-de-l-informatique-conception-developpement-et-test-de-logiciels-JACHNIWS//parcours-technologies-logicielles-pour-le-web-et-les-terminaux-mobiles-JACHPCKI.html?search-keywords=web,mobile" target="_blank">licence</a> 
+                professionnelle des technologies logiciel du web et terminaux mobiles en alternance,
+                je travaille actuellement chez 
+                <a href="https://www.trelleborg.com/" target="_blank">Trelleborg</a> en tant que développeur et administrateur logiciel.
+                Mes principales missions sont le développement de programme sur mesure pour un ERP, la conception d'interfaces entre applications et 
+                la gestion de logiciels tels que Talend et Git.
+            </p>
+            <p>
+                Durant mon temps libre, j'apprends des technologies du web comme  
+                <a href="https://vuejs.org" target="_blank">Vue.js</a> et <a href="https://nuxtjs.org" target="_blank">Nuxt.js</a> 
+                car je souhaite devenir un développeur web backend.
+            </p>
+            <p>
+                Vous pouvez trouver mon travail personnel sur <a href="https://github.com/NicolasRenault" target="_blank">GitHub</a>, 
+                mon <a href="https://resume.nicolasrenault.com/FR%20Resume%20Nicolas%20Renault.pdf" target="_blank">CV</a> 
+                ou me contacter par <a href="mailto:contact.nicolasrenault@gmail.com">mail</a>. 
+            </p>
+        </section>
     </body>
+    <script defer>
+        //Select a random color at launch
+        document.body.classList.add("random-color-" + Math.floor(Math.random() * (7 - 1 + 1) + 1));
+        
+        //Switch language
+        let language = "english";
+        document.getElementById("language").addEventListener("click", () => {
+            if (language === "english") {
+                document.getElementById("english").hidden = true;
+                document.getElementById("french").hidden = false;
+                language = "french";
+            } else {
+                document.getElementById("english").hidden = false;
+                document.getElementById("french").hidden = true;
+                language = "english";
+            }
+        })
+    </script>
 </html>
+
+<!-- Website extremely inspired by Evan You's website : https://evanyou.me -->
